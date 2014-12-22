@@ -42,7 +42,7 @@ body {
 }
 span {
     height: 90px;
-    padding: 0 20px 0 10px;
+    padding: 0 20px 0 20px;
     display: table-cell;
     vertical-align: middle;
     font-size: 18px;
@@ -74,14 +74,13 @@ span {
 }
 .menu-list li {
     height: 40px;
-    margin: 0 0 10px ;
+    margin: 0 0 10px;
     padding: 20px;
     line-height: 40px;
     position: relative;
     box-shadow: 1px 1px 2px 1px #bbbbbb;
     cursor: pointer;
 }
-
 .menu-list li:last-child {
     margin-bottom: 10px;
 }
@@ -101,4 +100,8 @@ span {
     text-align: center;
     box-shadow: 1px 1px 2px 1px #bbbbbb;
     color: #aeaeae;
+}
+a {
+    text-decoration: none;
+    color: #000;
 }
